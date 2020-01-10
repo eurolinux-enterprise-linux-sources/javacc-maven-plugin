@@ -1,6 +1,6 @@
 Name:           javacc-maven-plugin
 Version:        2.6
-Release:        16%{?dist}
+Release:        17%{?dist}
 Summary:        JavaCC Maven Plugin
 
 License:        ASL 2.0
@@ -56,6 +56,9 @@ cp -p %{SOURCE1} .
 %doc LICENSE-2.0.txt src/main/resources/NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.6-17
+- Mass rebuild 2013-12-27
+
 * Fri Aug 16 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 2.6-16
 - Migrate away from mvn-rpmbuild (#996663)
 
